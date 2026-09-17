@@ -20,3 +20,84 @@ int main下a=a+1，a++/++a（a的值+1）
 关系运算符>,<,>=,<=        6<7是1，6>7是0
 判等运算符==，!=(不等于)    5==5是1，5！=5是0
 逻辑运算符!(逻辑非)，&&(逻辑与)，||(逻辑或)
+if/else后只跟一个有效语句，两个语句用{括成一个整体}
+级联：else if（   ）;
+*project name:project1*/
+//变量命名不能数字开头
+
+
+
+#include<stdio.h>
+#include<stdio.h>
+
+int a=7,b=5,c=9;
+
+#define p  3.14
+
+int main(void)
+{
+	a=b<c?5:6;
+	
+
+	printf("a的数为:");
+	printf("%d",a);
+ 
+	return 0;
+}
+num;
+
+
+
+int main(void)
+{
+	
+	printf("请输入一个数:");
+	scanf("%d",&num);
+	if (num%2==0)
+	   { num=num*5;
+	      printf("这是一个偶数");
+	     }
+	else 
+	   {num=num*3;
+	      printf("这是一个奇数");
+	    }
+	
+	
+	return 0;
+}
+#include<stdio.h>
+int num;
+
+int main(void)
+{
+
+	printf ("请输入您的成绩:");
+	scanf("%d",&num);
+	
+	swcith(num)
+	{
+	    case 0:
+		case 1:
+	    case 2:
+		case 3:
+		case 4:
+		case 5:
+		printf("您的成绩不合格");
+		break
+		case 6:
+		printf("您的成绩合格");
+		break
+		case 7:
+	    case 8:
+	    case 9:
+		printf("您的成绩优秀");
+		break
+		case 10:
+		printf("您的成绩满分");
+		break
+     	default:
+		printf("您的成绩有误");	
+	}
+	
+	return 0;
+}
