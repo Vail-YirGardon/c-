@@ -101,3 +101,20 @@ int main(void)
 	
 	return 0;
 }
+---
+t i=5;
+
+int main(void)
+{
+  //for语句循环执行，次数确定。while无限循环，条件符合即执行
+	//do{    }while先执行再判断，至少执行一次
+
+	
+	for(i=5;i>0;i--){
+  	printf("%d\n",i);
+		if(i==4)	break;
+		//添加break；则运行到此终止
+	}
+	
+	return 0;
+}
