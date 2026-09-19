@@ -118,3 +118,20 @@ int main(void)
 	
 	return 0;
 }
+---
+
+#include<stdio.h>
+
+#define u8 unsigned char
+#define u32 unsinged int
+
+unsigned short int a = 1234;
+
+int main()
+{
+	
+	printf("%hd\n", a);
+	
+
+	return 0;
+}
