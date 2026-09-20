@@ -135,3 +135,26 @@ int main()
 
 	return 0;
 }
+---
+#include<stdio.h>
+int student[3]={0};
+int i;
+int j;
+
+
+int main()
+{  
+   for(i=0;i＜3;i++)
+   {
+       printf("请输入学员的学号：");
+       scanf("%d",&j);
+       printf("请输入学员的成绩:");
+       scanf("%d",&student[j+1]);
+   }
+    
+  printf("请输入学员的学号：");
+  scanf("%d",&j）;
+  printf("学员%d的成绩为：%d",j,student[j+1]);
+  
+  return 0;
+}
